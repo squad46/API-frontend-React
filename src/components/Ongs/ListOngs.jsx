@@ -57,6 +57,8 @@ export class ListOngs extends Component {
             </tbody>
           </table>
         </div>
+        <br />
+        <br />
       </div>
     )
   }

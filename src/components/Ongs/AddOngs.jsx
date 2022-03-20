@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export class AddOngs extends Component {
     render() {
         return (
-            <div>
+            <div className='form_ongs'>
                 <div className='container'>
                     <div className='row'>
                         <div className='card col-md-6 offset-md-3 offset-md-3'>
