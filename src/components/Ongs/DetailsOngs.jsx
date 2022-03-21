@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../../images/logotipo-new.svg'
 import OngsService from '../../services/OngsService'
 
 export class DetailsOngs extends Component {

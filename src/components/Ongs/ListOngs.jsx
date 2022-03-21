@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './Ongs.css';
 import OngsService from '../../services/OngsService';
 
 class ListOngs extends Component {
