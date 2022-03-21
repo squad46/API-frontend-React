@@ -15,15 +15,13 @@ function App() {
         <header>
           <Header />
         </header>
-        <body>
+
           <Switch>
             <Route exact path="/" component={ListOngs}></Route>
             <Route path="/ongs" component={ListOngs}></Route>
-            <Route path="/add-ongs" component={AddOngs}></Route>
-            <Route path="/edit-ong" component={AddOngs}></Route>
-            <Route path="/details-ong" component={DetailsOngs}></Route>
+            <Route path="/add-ongs/:id" component={AddOngs}></Route>
+            <Route path="/details-ong/:id" component={DetailsOngs}></Route>
           </Switch>
-        </body>
         <footer className='footer'>
           <Footer />
         </footer>
