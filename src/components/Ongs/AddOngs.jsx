@@ -147,7 +147,6 @@ export class AddOngs extends Component {
                                     </div>
 
                                     {/* se a foto for file
-
                                     <div className='form-control mb-3'>
                                     <label className='col-form-label'> Imagem </label>
                                         <input

@@ -11,8 +11,14 @@
     font-weight: 500;
 }
 
-.titulo-paginas { 
+.titulo_paginas { 
     color: #000033;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
+}
+
+.titulo_chart { 
+    color: #000033;
+    font-size: 24px;
+    font-weight: 600;
 }

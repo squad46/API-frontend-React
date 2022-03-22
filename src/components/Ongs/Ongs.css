@@ -1,43 +1,42 @@
-
 .ongs_title {
-    text-align: center;
-    margin-bottom: 1rem;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-  }
-  
-  .bt_add {
-    background: #145205 !important;
-    color: #fff !important;
-  }
-  
-  .bt_att {
-    background: #176604 !important;
-    color: #fff !important;
-  }
-  
-  .bt_dtlhs {
-    background: #000033 !important;
-    color: #fff !important;
-  }
-  
-  .form_ongs{
-    padding: 10px;
-  }
-  
-  .details_ongs {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 10px;
-  }
-  
-  .bt_vlt {
-    display: inline;
-    flex-direction: column;
-  }
-  
-  .btns_space { 
-    display: flex;
-    flex-direction: row;
-  }
+  text-align: center;
+  margin-bottom: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.bt_add {
+  background: #145205 !important;
+  color: #fff !important;
+}
+
+.bt_att {
+  background: #176604 !important;
+  color: #fff !important;
+}
+
+.bt_dtlhs {
+  background: #000033 !important;
+  color: #fff !important;
+}
+
+.form_ongs {
+  padding: 10px;
+}
+
+.details_ongs {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.bt_vlt {
+  display: inline;
+  flex-direction: column;
+}
+
+.btns_space {
+  display: flex;
+  flex-direction: row;
+}

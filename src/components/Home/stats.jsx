@@ -28,21 +28,21 @@ class Stats extends Component {
         return (
             <div className="container">
 
-                <h2 className="welcome font-weight-bold">Seja bem vindo ao Einstein!</h2>
+                <h2 className="welcome">Seja bem vindo ao Einstein!</h2>
                 <p className='description'> A API da Andor que fornece os dados do Portal </p>
-                <p className="titulo-paginas">Dados da plataforma</p>
+                <p className="titulo_paginas">Dados da plataforma</p>
                 <div class="container card-simple justify-content-center d-flex flex-wrap mb-5 py-5">
                     <div className='row w-100 text-center'>
-                        <h4 className='col font-weight-bold'>Pessoas por Genero</h4>
-                        <h4 className='col font-weight-bold'>Empregos Cadastrados</h4>
+                        <h4 className='col titulo_chart'>Pessoas por Gênero</h4>
+                        <h4 className='col titulo_chart'>Empregos Cadastrados</h4>
                     </div>
                     <ChartPessoas />
                     
                     <ChartEmpregos />
 
                     <div className='row w-100 text-center'>
-                        <h4 className='col font-weight-bold'>Moradias Cadastradas</h4>
-                        <h4 className='col font-weight-bold'>Ongs Cadastradas</h4>
+                        <h4 className='col titulo_chart'>Moradias Cadastradas</h4>
+                        <h4 className='col titulo_chart'>Ongs Cadastradas</h4>
                     </div>
                     <ChartMoradias />
                     <ChartOngs />
