@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './stats.css'
 import StatsService from '../../services/StatsService';
 import ChartMoradias from '../BarChart/moradias';
 import ChartEmpregos from '../BarChart/empregados';
@@ -27,7 +28,8 @@ class Stats extends Component {
         return (
             <div className="container">
 
-                <h2 className="font-weight-bold">Seja bem vindo ao Einstein</h2>
+                <h2 className="welcome font-weight-bold">Seja bem vindo ao Einstein!</h2>
+                <p className='description'> A API da Andor que fornece os dados do Portal </p>
                 <p className="titulo-paginas">Dados da plataforma</p>
                 <div class="container card-simple justify-content-center d-flex flex-wrap mb-5 py-5">
                     <div className='row w-100 text-center'>

@@ -1,0 +1,18 @@
+.welcome { 
+    color: #000033 !important;
+    font-weight: 700;
+    text-align: center;
+}
+
+.description {
+    color: #000033; 
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.titulo-paginas { 
+    color: #000033;
+    font-size: 20px;
+    font-weight: 700;
+}

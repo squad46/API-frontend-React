@@ -18,7 +18,7 @@ class Header extends Component {
             <div>
                 <nav className="navbar navbar-expand-lg navbar-light bg-light border">
                     <div className="container">
-                        <a className="brand_adm navbar-brand" href="/">Painel Administrativo</a>
+                        <a className="brand_adm navbar-brand" href="/">Einstein</a>
                         <a href="https://projetoandor.azurewebsites.net/" className="mini_logo" style={{ visibility: "hidden" }}>
                             <img src={miniLogo} width="30px" alt='' ></img> </a>
                         <div className='logotype flex-fill text-center'>
