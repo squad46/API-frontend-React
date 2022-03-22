@@ -9,7 +9,6 @@ import ListOngs from './components/Ongs/ListOngs';
 import AddOngs from './components/Ongs/AddOngs';
 import DetailsOngs from './components/Ongs/DetailsOngs';
 
-import Stats from './components/Home/stats';
 import BarChart from './components/BarChart/index';
 
 
