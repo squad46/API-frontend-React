@@ -24,7 +24,7 @@ class ChartMoradias extends Component {
                     chartType="Bar"
                     data={[
                             ['Moradias de Refugiados', 'Apartamentos', 'Casa', 'Quartos'],
-                            ['Apartamentos, Casa, Quartos', this.state.stats.moradias, this.state.stats.moradias, this.state.stats.moradias],
+                            ['Apartamentos, Casa, Quartos', this.state.stats.moradiasApartamentos, this.state.stats.moradiasCasas, this.state.stats.moradiasQuarto],
                          ]} 
                     options={{
                         height: 400,

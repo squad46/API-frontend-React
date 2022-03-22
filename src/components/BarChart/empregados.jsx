@@ -24,7 +24,7 @@ class ChartEmpregados extends Component {
                     chartType="Bar"
                     data={[
                         ['Refugiados Trabalhando', 'Autônomo', 'CLT', 'PJ', 'Temporário'],
-                        ['Empregados', this.state.stats.empregos, this.state.stats.empregos, this.state.stats.empregos, this.state.stats.empregos],
+                        ['Empregados', this.state.stats.empregosAutonomo, this.state.stats.empregosClt, this.state.stats.empregosPj, this.state.stats.empregosTemporario],
                          ]} 
                     options={{
                         height: 400,
@@ -38,3 +38,5 @@ class ChartEmpregados extends Component {
 }
 
 export default ChartEmpregados
+
+             
