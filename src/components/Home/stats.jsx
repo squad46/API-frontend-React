@@ -1,0 +1,51 @@
+import React, { Component } from 'react'
+import StatsService from '../../services/StatsService';
+
+class Stats extends Component {
+
+    constructor(props) {
+        super(props)
+
+        this.state = {
+            stats: {}
+        }
+
+    }
+    componentDidMount(){
+      
+        StatsService.getStats().then((res) => {
+            console.log(res.data);
+            this.setState({ stats: res.data});
+        });  
+    }
+
+    render() {
+        return (
+            <div className="container">
+                <h1 className="titulo-paginas">Dados da plataforma</h1>
+
+                <p>Pessoas:  {this.state.stats.pessoas}</p>
+                <p>Homens: {this.state.stats.pessoasHomens}</p>
+                <p>Mulheres: {this.state.stats.pessoasMulheres}</p>
+                <br />
+
+                <p>Moradia: {this.state.stats.moradias}</p>
+                <p>Apartamentos: {this.state.stats.moradiasApartamentos}</p>
+                <p>Casa: {this.state.stats.moradiasCasas}</p>
+                <p>Quartos: {this.state.stats.moradiasQuarto}</p>
+                <br />
+
+                <p>Empregos: {this.state.stats.empregos}</p>
+                <p>Autônomo: {this.state.stats.empregosAutonomo}</p>
+                <p>CLT: {this.state.stats.empregosClt}</p>
+                <p>PJ: {this.state.stats.empregosPj}</p>
+                <p>Temporário: {this.state.stats.empregosTemporario}</p>
+                <br />
+
+                <p>Ongs: {this.state.stats.ongs}</p>
+            </div>
+        )
+    }
+}
+
+export default Stats

@@ -1,5 +1,5 @@
 import axios from 'axios';
-const ONGS_API_BASE_URL = "";
+const ONGS_API_BASE_URL = 'http://localhost:8080/ongs';
 
 class OngsService {
     getOngs(){
