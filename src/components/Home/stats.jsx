@@ -26,6 +26,7 @@ class Stats extends Component {
     render() {
         return (
             <div className="container">
+
                 <h2 className="font-weight-bold">Seja bem vindo ao Einstein</h2>
                 <p className="titulo-paginas">Dados da plataforma</p>
                 <div class="container card-simple justify-content-center d-flex flex-wrap mb-5 py-5">
@@ -46,8 +47,17 @@ class Stats extends Component {
                 </div>
 
                 {/*<p>Pessoas:  {this.state.stats.pessoas}</p>
+
+                <h1 className="border-bottom pb-2 mb-4">Seja bem vindo ao Einstein</h1>
+                <h3 className="titulo-paginas">Dados da plataforma</h3>
+                <p>Pessoas:  {this.state.stats.pessoas}</p>
+
                 <p>Homens: {this.state.stats.pessoasHomens}</p>
+                <p>Homens percentual: {this.state.stats.pessoasHomensPercent}%</p>
                 <p>Mulheres: {this.state.stats.pessoasMulheres}</p>
+                <p>Mulheres percentual: {this.state.stats.pessoasMulheresPercent}%</p>
+                <p>Não informou: {this.state.stats.pessoasOutros}</p>
+                <p>Não informou percentual: {this.state.stats.pessoasOutrosPercent}%</p>
                 <br />
 
                 <p>Moradia: {this.state.stats.moradias}</p>
@@ -63,7 +73,9 @@ class Stats extends Component {
                 <p>Temporário: {this.state.stats.empregosTemporario}</p>
                 <br />
 
+
                 <p>Ongs: {this.state.stats.ongs}</p>*/}
+
             </div>
 
         )
