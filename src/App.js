@@ -14,7 +14,7 @@ function App() {
       <Router>
           <Header />
           <Switch>
-            <Route exact path="/" exact component={Stats}></Route>
+            <Route path="/" exact component={Stats}></Route>
             <Route path="/ongs" component={ListOngs}></Route>
             <Route path="/add-ongs" component={AddOngs}></Route>
             <Route path="/edit-ong" component={AddOngs}></Route>
