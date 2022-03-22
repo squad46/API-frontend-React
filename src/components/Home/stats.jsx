@@ -27,7 +27,11 @@ class Stats extends Component {
 
                 <p>Pessoas:  {this.state.stats.pessoas}</p>
                 <p>Homens: {this.state.stats.pessoasHomens}</p>
+                <p>Homens percentual: {this.state.stats.pessoasHomensPercent}%</p>
                 <p>Mulheres: {this.state.stats.pessoasMulheres}</p>
+                <p>Mulheres percentual: {this.state.stats.pessoasMulheresPercent}%</p>
+                <p>Não informou: {this.state.stats.pessoasOutros}</p>
+                <p>Não informou percentual: {this.state.stats.pessoasOutrosPercent}%</p>
                 <br />
 
                 <p>Moradia: {this.state.stats.moradias}</p>
