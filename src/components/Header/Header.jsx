@@ -16,7 +16,7 @@ class Header extends Component {
     render() {
         return (
             <div>
-                <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                <nav className="navbar navbar-expand-lg navbar-light bg-light border">
                     <div className="container">
                         <a className="brand_adm navbar-brand" href="/">Painel Administrativo</a>
                         <a href="https://projetoandor.azurewebsites.net/" className="mini_logo" style={{ visibility: "hidden" }}>

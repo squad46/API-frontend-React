@@ -18,7 +18,7 @@ function App() {
             <Route path="/ongs" component={ListOngs}></Route>
             <Route path="/add-ongs/:id" component={AddOngs}></Route>
             <Route path="/edit-ong" component={AddOngs}></Route>
-            <Route path="/details-ong" component={DetailsOngs}></Route>
+            <Route path="/details-ong/:id" component={DetailsOngs}></Route>
             {/*
             <Route path="/home" component={Stats}></Route>
             */}          
