@@ -22,7 +22,8 @@ class Stats extends Component {
     render() {
         return (
             <div className="container">
-                <h1 className="titulo-paginas">Dados da plataforma</h1>
+                <h1 className="">Seja bem vindo ao Einstein</h1>
+                <h3 className="titulo-paginas">Dados da plataforma</h3>
 
                 <p>Pessoas:  {this.state.stats.pessoas}</p>
                 <p>Homens: {this.state.stats.pessoasHomens}</p>
