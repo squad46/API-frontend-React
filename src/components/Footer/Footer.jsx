@@ -4,7 +4,7 @@ import './Footer.css';
 export class Footer extends Component {
   render() {
     return (
-        <div>
+        <div className='footer'>
                 <div>Andor - Todos os Direitos reservados 2022</div>
         </div>
     )

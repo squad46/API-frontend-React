@@ -20,10 +20,10 @@ class Header extends Component {
                     <div className="container">
                         <a className="brand_adm navbar-brand" href="/">Painel Administrativo</a>
                         <a href="https://projetoandor.azurewebsites.net/" className="mini_logo" style={{ visibility: "hidden" }}>
-                            <img src={miniLogo} width="30px" ></img> </a>
+                            <img src={miniLogo} width="30px" alt='' ></img> </a>
                         <div className='logotype flex-fill text-center'>
                             <a href="https://projetoandor.azurewebsites.net/" className='logo'>
-                                <img src={logo} width="160px"></img>
+                                <img src={logo} width="160px" alt=''></img>
                             </a>
                         </div>
                         <button className="navbar-toggler"
@@ -33,10 +33,10 @@ class Header extends Component {
                         <div className={this.state.show ? 'collapse navbar-collapse' : 'collapse navbar-collapse active'}>
                             <ul className="navbar-nav ms-auto">
                                 <li className="nav-item">
-                                    <a className="nav-link nav_link" href="#">Estatísticas</a>
+                                    <a className="nav-link nav_link" href="/">Estatísticas</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link nav_link" href="#">Ongs</a>
+                                    <a className="nav-link nav_link" href="/ongs">Ongs</a>
                                 </li>
                             </ul>
                         </div>
