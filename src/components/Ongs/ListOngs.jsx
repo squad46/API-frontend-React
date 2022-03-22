@@ -66,7 +66,7 @@ class ListOngs extends Component {
                       <td className='text-center'> {ong.nome} </td>
                       <td className='text-center'> {ong.descricao} </td>
                       <td className='text-center'> {ong.site} </td>
-                      <td className='text-center'> <img src={ong.imagem} style={{width:"70%"}}></img> </td>
+                      <td className='text-center'> <img src={ong.imagem} style={{width:"70%"}} alt=""></img> </td>
                       <td>
                         <div className='btns_space'>
                           <button className='btn bt_att' onClick={() => this.editOng(ong.id)}> Atualizar </button>
