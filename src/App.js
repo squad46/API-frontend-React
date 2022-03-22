@@ -18,7 +18,7 @@ const Stats = lazy(() => import ('./components/Home/stats'));
 
 function App() {
   return (
-    <div>
+    <div className="bg-light pb-5">
       <Router>
           <Header />
           <Switch>
