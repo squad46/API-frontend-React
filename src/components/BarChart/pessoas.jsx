@@ -26,6 +26,7 @@ class ChartPessoas extends Component {
                             ['Refugiados por Genero', 'Qtdd'],
                             ['Mulheres', this.state.stats.pessoasHomens],
                             ['Homens', this.state.stats.pessoasMulheres],
+                            ['Outros', this.state.stats.pessoasOutros]
                          ]} 
                     options={{
                         height: 400,
