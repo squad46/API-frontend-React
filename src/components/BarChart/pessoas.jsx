@@ -24,8 +24,8 @@ class ChartPessoas extends Component {
                     chartType="PieChart"
                     data={[
                             ['Refugiados por Genero', 'Qtdd'],
-                            ['Mulheres', this.state.stats.pessoas],
-                            ['Homens', this.state.stats.pessoas],
+                            ['Mulheres', this.state.stats.pessoasHomens],
+                            ['Homens', this.state.stats.pessoasMulheres],
                          ]} 
                     options={{
                         height: 400,

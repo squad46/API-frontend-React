@@ -45,8 +45,9 @@ class Stats extends Component {
                     <ChartMoradias />
                     <ChartOngs />
                 </div>
-
-                {/*<p>Pessoas:  {this.state.stats.pessoas}</p>
+                
+                {/*
+                <p>Pessoas:  {this.state.stats.pessoas}</p>
 
                 <h1 className="border-bottom pb-2 mb-4">Seja bem vindo ao Einstein</h1>
                 <h3 className="titulo-paginas">Dados da plataforma</h3>
@@ -74,8 +75,8 @@ class Stats extends Component {
                 <br />
 
 
-                <p>Ongs: {this.state.stats.ongs}</p>*/}
-
+                <p>Ongs: {this.state.stats.ongs}</p>
+            */}
             </div>
 
         )
