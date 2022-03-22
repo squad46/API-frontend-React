@@ -22,9 +22,8 @@ class Stats extends Component {
     render() {
         return (
             <div className="container">
-                <h1 className="">Seja bem vindo ao Einstein</h1>
+                <h1 className="border-bottom pb-2 mb-4">Seja bem vindo ao Einstein</h1>
                 <h3 className="titulo-paginas">Dados da plataforma</h3>
-
                 <p>Pessoas:  {this.state.stats.pessoas}</p>
                 <p>Homens: {this.state.stats.pessoasHomens}</p>
                 <p>Homens percentual: {this.state.stats.pessoasHomensPercent}%</p>
@@ -48,6 +47,9 @@ class Stats extends Component {
                 <br />
 
                 <p>Ongs: {this.state.stats.ongs}</p>
+                <br />
+                <br />
+                <br />
             </div>
         )
     }
