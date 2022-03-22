@@ -16,7 +16,7 @@ nav .navbar-collapse.collapse {
 .logo {
     display: flex;
     justify-content: center;
-    margin-left: 10rem;
+    margin-left: 20rem;
   }
 
 .nav_link { 
@@ -31,7 +31,7 @@ nav .navbar-collapse.collapse {
     }
 
     nav .navbar-collapse.active {
-        height: 20vh !important; /* alterar conforme adicionar nav-links */
+        height: 15vh !important; /* alterar conforme adicionar nav-links */
     }
 
     .logo { 
@@ -47,10 +47,35 @@ nav .navbar-collapse {
 @media (max-width: 760px) {
  
     .logo { 
-      display: none;
+        width: 120px;
     }
-  
-    .mini_logo { 
-      visibility: visible !important;
-    }
+
   } 
+
+  @media (max-width: 540px) { 
+
+    .logo {
+        width: 100px;
+        margin-left: 5rem;
+    }
+}
+
+@media (max-width: 480px) { 
+
+    .logo {
+        width: 100px;
+        margin-left: 0.6rem;
+    }
+}
+
+@media (max-width: 370px) { 
+    
+    .logo { 
+        display: none;
+      }
+    
+      .mini_logo { 
+        visibility: visible !important;
+        margin-left: 4rem;
+      }
+}
