@@ -1,12 +1,14 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 
+
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import ListOngs from './components/Ongs/ListOngs';
 import AddOngs from './components/Ongs/AddOngs';
 import DetailsOngs from './components/Ongs/DetailsOngs';
 import Stats from './components/Home/stats';
+import BarChart from './components/BarChart/index';
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
             <Route path="/add-ongs/:id" component={AddOngs}></Route>
             <Route path="/edit-ong" component={AddOngs}></Route>
             <Route path="/details-ong/:id" component={DetailsOngs}></Route>
+            <Route path="/barchart" component={BarChart}></Route>
             {/*
             <Route path="/home" component={Stats}></Route>
             */}          
